@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    text-align: center;
+}
+
+.action-btns {
+    
+}
+
+#editor {
+    width: 80%;
+    margin: 3%;
+    padding: 5%;
+    height: auto;
+    border: none;
+    box-shadow: 0 0 20px gray;
+    min-height: 1000px;
+    line-break: auto;
+}
+
+i, img {
+    pointer-events: none;
+}
+
+input[type="color"] {
+	-webkit-appearance: none;
+	border: none;
+	width: 16px;
+	height: 16px;
+    cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper {
+	padding: 0;
+}
+input[type="color"]::-webkit-color-swatch {
+	border: none;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    border: none;
+}
+
+.select-options {
+    position: relative;
+    overflow: hidden;
+}
+
+select {
+    width: 10rem;
+    cursor: pointer;
+    padding: 9px;
+    border-radius: 5px;
+}
+
+.action-btn {
+    margin: 1px 3px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+button[class^="action-btn"] {
+    background-color: white;
+    border: 1px solid #111;
+    cursor: pointer;
+    width: 36px;
+    height: 36px;
+}
+
+button[class^="action-btn"]:hover {
+    border: 1px solid #4880EC;
+}
+
+button[class^="action-btn"] img {
+    width: 24px;
+    height: 24px;
+}
+
+.edit-btn {
+    border: 2px solid #4880EC;
+}
